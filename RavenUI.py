@@ -752,7 +752,7 @@ with gr.Blocks(title="♡ RavenCutie21") as app:
                     )
                     total_epoch11 = gr.Slider(
                         minimum=2,
-                        maximum=10000,
+                        maximum=100000,
                         step=1,
                         label=i18n("Total Epochs"),
                         value=750,
